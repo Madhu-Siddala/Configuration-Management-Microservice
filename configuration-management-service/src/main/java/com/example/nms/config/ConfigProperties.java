@@ -83,4 +83,8 @@ public class ConfigProperties {
     public String getConfigFilePath() {
         return configFilePath;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> da385fc319984c31edb53b74b74758c03b81d0e2

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Configuration Management</title>
+</head>
+<body>
+    <h1>Configuration Management</h1>
+    
+    <h2>Backup Configuration</h2>
+    <form method="post" action="/backup">
+        <button type="submit">Backup Configuration</button>
+    </form>
+
+    <h2>Push Configuration</h2>
+    <form method="post" action="/push">
+        <label for="configFilePath">Configuration File Path:</label>
+        <input type="text" id="configFilePath" name="configFilePath" placeholder="Enter config file path" required>
+        <button type="submit">Push Configuration</button>
+    </form>
+    
+  
+
+    <h2>Current Configuration</h2>
+    <div>
+        <pre>
+            <!-- Display current configuration details if necessary -->
+            <!-- You can dynamically populate this section using Thymeleaf -->
+        </pre>
+    </div>
+</body>
+</html>

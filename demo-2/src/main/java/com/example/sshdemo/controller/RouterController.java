@@ -1,6 +1,5 @@
 package com.example.sshdemo.controller;
 
-
 import com.jcraft.jsch.ChannelExec;
 import com.jcraft.jsch.JSch;
 import com.jcraft.jsch.Session;
@@ -68,4 +67,3 @@ public class RouterController {
         return "result";
     }
 }
-

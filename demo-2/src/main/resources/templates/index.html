@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Router Command</title>
+    <title>Router Command Executor</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <h1>Enter Command to Run on Router</h1>
-    <form action="/run-command" method="post">
-        <label for="command">Command:</label>
-        <textarea id="command" name="command" rows="5" cols="50" required>configure terminal
-hostname siddu
-end
-write memory</textarea>
-        <br><br>
-        <button type="submit">Run Command</button>
+    <h1>Router Command Executor</h1>
+
+    <!-- Form to trigger the execution of commands from the command.txt file -->
+    <form method="post" action="/run-command">
+        <button type="submit">Run Commands</button>
     </form>
-    
+
+    <!-- Display command output -->
+    <div th:if="${output}">
+        <h2>Command Output</h2>
+        <pre th:text="${output}"></pre>
+    </div>
+
+    <!-- Display error message if any -->
     <div th:if="${error}">
-        <p style="color:red;" th:text="${error}"></p>
+        <h2>Error</h2>
+        <p th:text="${error}"></p>
     </div>
 </body>
 </html>

@@ -1,4 +1,5 @@
-package com.example.sshdemo.controller;
+package com.example.demo.sshdemo.controller;
+
 
 import com.jcraft.jsch.ChannelExec;
 import com.jcraft.jsch.JSch;
@@ -19,9 +20,15 @@ public class RouterController {
         return "index";
     }
 
+    @GetMapping("/run-command")
+    public String runCommandGet(@RequestParam("command") String command, Model model) {
+        return runCommand(command, model);
+    }
+
     @PostMapping("/run-command")
     public String runCommand(@RequestParam("command") String command, Model model) {
-        String host = "172.20.0.3";
+        // Your existing code for handling the command
+        String host = "172.20.0.2";
         String user = "admin";
         String password = "wipro";
         int port = 22;
@@ -57,11 +64,7 @@ public class RouterController {
             e.printStackTrace();
             model.addAttribute("error", "Error occurred: " + e.getMessage());
             return "index";
-        } finally {
-            if (session != null) {
-                session.disconnect();
-            }
-        }
+        } 
 
         model.addAttribute("output", output.toString());
         return "result";

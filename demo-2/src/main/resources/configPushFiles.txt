@@ -1,2 +1,0 @@
-sh ip int b
-sh vlan

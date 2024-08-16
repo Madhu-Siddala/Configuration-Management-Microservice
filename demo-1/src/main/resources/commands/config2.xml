@@ -1,0 +1,4 @@
+<commands>
+    <command>show version</command>
+    <command>show running-config</command>
+</commands>

@@ -1,0 +1,96 @@
+2024-08-13T11:52:02.014412500 - ERROR: An error occurred: No static resource .
+2024-08-13T11:53:43.403722900 - ERROR: An error occurred: No static resource favicon.ico.
+2024-08-13T11:53:51.623809900 - ERROR: An error occurred: No static resource .
+2024-08-13T11:55:29.064847400 - ERROR: An error occurred: No static resource favicon.ico.
+2024-08-13T11:55:35.060973300 - ERROR: An error occurred: No static resource favicon.ico.
+2024-08-13T11:55:52.753470800 - CHANGE: Sending command: enable
+hostname wipro
+exit
+2024-08-13T11:55:52.768078 - ROUTER OUTPUT for command 'enable': Executed: enable
+2024-08-13T11:55:52.769078800 - ROUTER OUTPUT for command 'hostname wipro': Executed: hostname wipro
+2024-08-13T11:55:52.769078800 - ROUTER OUTPUT for command 'exit': Executed: exit
+2024-08-13T11:55:52.769078800 - CHANGE: Router Output:
+Executed: enable
+Executed: hostname wipro
+Executed: exit
+
+2024-08-13T11:55:52.770069300 - CHANGE: Pushed configuration commands: enable
+hostname wipro
+exit
+2024-08-13T11:55:52.861672600 - ERROR: An error occurred: No static resource favicon.ico.
+2024-08-13T11:56:15.820975200 - ERROR: An error occurred: No static resource favicon.ico.
+2024-08-13T11:56:33.607372600 - CHANGE: Sending command: show ip int b
+2024-08-13T11:56:33.658387200 - ROUTER OUTPUT for command 'show ip int b': Executed: show ip int b
+2024-08-13T11:56:33.659997900 - CHANGE: Router Output:
+Executed: show ip int b
+
+2024-08-13T11:56:33.659997900 - CHANGE: Pushed configuration commands: show ip int b
+2024-08-13T11:56:33.767175400 - ERROR: An error occurred: No static resource favicon.ico.
+2024-08-13T11:56:46.436439400 - ERROR: An error occurred: No static resource favicon.ico.
+2024-08-13T11:58:03.383101400 - CHANGE: Sending command: show ip int b
+2024-08-13T11:58:03.388106200 - ROUTER OUTPUT for command 'show ip int b': Executed: show ip int b
+2024-08-13T11:58:03.388106200 - CHANGE: Router Output:
+Executed: show ip int b
+
+2024-08-13T11:58:03.389690600 - CHANGE: Pushed configuration commands: show ip int b
+2024-08-13T11:58:03.516254500 - ERROR: An error occurred: No static resource favicon.ico.
+2024-08-13T13:49:24.236595 - ERROR: An error occurred: No static resource favicon.ico.
+2024-08-13T13:52:13.566188300 - CHANGE: Sending command: enable
+configuration terminal
+interface GigabitEthernet1
+ip address  192.168.20.45 255.255.255.0
+no shutdown
+exit
+exit
+write memory
+2024-08-13T13:52:13.583034 - ROUTER OUTPUT for command 'enable': Executed: enable
+2024-08-13T13:52:13.583034 - ROUTER OUTPUT for command 'configuration terminal': Executed: configuration terminal
+2024-08-13T13:52:13.583034 - ROUTER OUTPUT for command 'interface GigabitEthernet1': Executed: interface GigabitEthernet1
+2024-08-13T13:52:13.583034 - ROUTER OUTPUT for command 'ip address  192.168.20.45 255.255.255.0': Executed: ip address  192.168.20.45 255.255.255.0
+2024-08-13T13:52:13.583034 - ROUTER OUTPUT for command 'no shutdown': Executed: no shutdown
+2024-08-13T13:52:13.583034 - ROUTER OUTPUT for command 'exit': Executed: exit
+2024-08-13T13:52:13.583034 - ROUTER OUTPUT for command 'exit': Executed: exit
+2024-08-13T13:52:13.583034 - ROUTER OUTPUT for command 'write memory': Executed: write memory
+2024-08-13T13:52:13.583034 - CHANGE: Router Output:
+Executed: enable
+Executed: configuration terminal
+Executed: interface GigabitEthernet1
+Executed: ip address  192.168.20.45 255.255.255.0
+Executed: no shutdown
+Executed: exit
+Executed: exit
+Executed: write memory
+
+2024-08-13T13:52:13.583034 - CHANGE: Pushed configuration commands: enable
+configuration terminal
+interface GigabitEthernet1
+ip address  192.168.20.45 255.255.255.0
+no shutdown
+exit
+exit
+write memory
+2024-08-13T13:52:13.655069700 - ERROR: An error occurred: No static resource favicon.ico.
+2024-08-13T13:52:19.457032 - ERROR: An error occurred: No static resource favicon.ico.
+2024-08-13T13:55:17.296097200 - CHANGE: Backed up configuration to: NAT_EnabledRouter_Config_Backup
+2024-08-13T13:55:17.354494300 - ERROR: An error occurred: No static resource favicon.ico.
+2024-08-13T13:55:43.828913300 - ERROR: An error occurred: No static resource logging.
+2024-08-13T15:01:27.236739200 - ERROR: An error occurred: No static resource .
+2024-08-13T15:01:41.981655800 - ERROR: An error occurred: No static resource device.
+2024-08-13T15:01:58.115109700 - ERROR: An error occurred: No static resource favicon.ico.
+2024-08-13T15:02:05.175178500 - ERROR: An error occurred: No static resource favicon.ico.
+2024-08-13T15:02:07.425629700 - ERROR: An error occurred: No static resource favicon.ico.
+2024-08-13T15:02:13.310573400 - CHANGE: Sending command: show ip int b
+2024-08-13T15:02:13.320145800 - ROUTER OUTPUT for command 'show ip int b': Executed: show ip int b
+2024-08-13T15:02:13.320145800 - CHANGE: Router Output:
+Executed: show ip int b
+
+2024-08-13T15:02:13.321907900 - CHANGE: Pushed configuration commands: show ip int b
+2024-08-13T15:02:13.436260800 - ERROR: An error occurred: No static resource favicon.ico.
+2024-08-13T15:02:25.506228700 - ERROR: An error occurred: No static resource favicon.ico.
+2024-08-13T15:02:34.839030600 - CHANGE: Sending command: sh ip int b
+2024-08-13T15:02:34.891429700 - ROUTER OUTPUT for command 'sh ip int b': Executed: sh ip int b
+2024-08-13T15:02:34.891494400 - CHANGE: Router Output:
+Executed: sh ip int b
+
+2024-08-13T15:02:34.892460200 - CHANGE: Pushed configuration commands: sh ip int b
+2024-08-13T15:02:34.987094500 - ERROR: An error occurred: No static resource favicon.ico.

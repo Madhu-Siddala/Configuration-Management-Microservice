@@ -1,0 +1,8 @@
+com\example\nms\config\ConfigChangeTracker.class
+com\example\nms\ConfigurationManagementServiceApplication.class
+com\example\nms\config\ConfigPush.class
+com\example\nms\config\DeviceService.class
+com\example\nms\ui\ConfigController.class
+com\example\nms\repository\DeviceRepository.class
+com\example\nms\config\ConfigBackup.class
+com\example\nms\model\Device.class
